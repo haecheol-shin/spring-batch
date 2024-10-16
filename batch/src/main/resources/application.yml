@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: batch
+
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:tcp://localhost/~/batch
+    username: sa
+    password: 1234
+
+  h2:
+    console:
+      enabled: true
+
+  batch:
+    jdbc:
+      initialize-schema: always
