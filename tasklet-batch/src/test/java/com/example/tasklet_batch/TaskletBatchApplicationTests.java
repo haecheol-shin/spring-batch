@@ -1,10 +1,10 @@
-package com.example.batch;
+package com.example.tasklet_batch;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BatchApplicationTests {
+class TaskletBatchApplicationTests {
 
 	@Test
 	void contextLoads() {
