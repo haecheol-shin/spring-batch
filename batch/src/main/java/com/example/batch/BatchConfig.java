@@ -19,7 +19,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 
 @Configuration
-@EnableBatchProcessing
 public class BatchConfig {
 
     private final UserUpdateTasklet userUpdateTasklet;
@@ -44,5 +43,4 @@ public class BatchConfig {
                 .tasklet(userUpdateTasklet, platformTransactionManager)
                 .build();
     }
-
 }
